@@ -38,7 +38,7 @@ fun MyList() {
     LazyColumn{
         items(5000){
             Text(
-                text = "Item $it",
+                text = "Item number  $it",
                 fontSize = 24.sp,
                 fontWeight = FontWeight.Bold,
                 textAlign = TextAlign.Center,
